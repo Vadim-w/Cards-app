@@ -1,3 +1,24 @@
 .loginBlock{
     margin-top: 7vh;
 }
+.containerModal{
+    max-width: 800px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+.btnModal{
+    border: 1px solid;
+    outline: 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    width: 200px;
+    margin: 0 auto 20px;
+    display: block;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btnModal:hover {
+    background-color: black;
+    color: white;
+}
